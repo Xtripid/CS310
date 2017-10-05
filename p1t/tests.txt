@@ -1,0 +1,6 @@
+1.) libinit run twice
+2.) run thread function before libinit
+3.) calling unlock before holding a lock
+4.) waiting before you have a lock
+5.) thread that tries to acquire a lock it already has
+6.) thread tries to release a lock it doesn't have

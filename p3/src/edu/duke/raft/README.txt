@@ -1,0 +1,4 @@
+Raft Consensus README
+Jonathan Ma, Hong Niu, Jason Wang
+
+Overall we spent the good part of 2-3 days on this assignment. For the assignment we only consulted the Raft paper and the class slides.  The most difficult part of the assignment was figuring out the Raft protocol and understanding what the different interactions between modes should be. After our first attempt, our implementation struggled to elect a leader consistently and we realized we had to go back have a better understanding. The interaction we struggled most with were what happens when multiple candidates are available. In the end we were able to get it mostly, barring some particular edge cases. 
